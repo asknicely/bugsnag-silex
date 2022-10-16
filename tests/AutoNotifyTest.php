@@ -11,7 +11,7 @@ use Exception;
 use GrahamCampbell\TestBenchCore\MockeryTrait;
 use Mockery;
 use Pimple\ServiceProviderInterface;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 use Silex\Application;
 
 class AutoNotifyTest extends TestCase

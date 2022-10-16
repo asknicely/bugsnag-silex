@@ -7,7 +7,7 @@ use Bugsnag\Request\RequestInterface;
 use Bugsnag\Silex\Request\SilexRequest;
 use Bugsnag\Silex\Request\SilexResolver;
 use GrahamCampbell\TestBenchCore\MockeryTrait;
-use PHPUnit_Framework_TestCase as TestCase;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Request;
 
 class SilexRequestTest extends TestCase
